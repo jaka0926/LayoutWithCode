@@ -60,7 +60,7 @@ class SignUpViewController: UIViewController {
         textFieldStack.snp.makeConstraints { make in
             make.center.equalToSuperview()
         }
-        for (key, value) in stackList {
+        for (key, _) in stackList {
             key.snp.makeConstraints { make in
                 make.width.equalTo(300)
                 make.height.equalTo(35)
